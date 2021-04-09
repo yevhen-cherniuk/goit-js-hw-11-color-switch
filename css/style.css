@@ -1,0 +1,22 @@
+body {
+  background-color: tomato;
+}
+div {
+  text-align: center;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+}
+button {
+  font-size: large;
+  padding: 20px;
+  margin-right: 25px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: auto;
+}
